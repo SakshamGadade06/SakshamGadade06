@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="160" viewBox="0 0 860 160">
+  <rect width="860" height="160" rx="20" fill="#0d1117"/>
+  <rect x="1" y="1" width="858" height="158" rx="19" fill="none" stroke="#30363d"/>
+  <g font-family="monospace" text-anchor="middle">
+    <text x="430" y="68" fill="#f0f6fc" font-size="24">Contribution graph initializing…</text>
+    <text x="430" y="106" fill="#8b949e" font-size="18">GitHub Actions will replace this with live data.</text>
+  </g>
+</svg>
