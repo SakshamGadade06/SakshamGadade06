@@ -1,0 +1,31 @@
+name: Update profile artwork
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update-contributions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: SakshamGadade06
+          outputs: |
+            contrib-heatmap.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit refreshed artwork
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Refresh contribution graph
+          file_pattern: contrib-heatmap.svg
