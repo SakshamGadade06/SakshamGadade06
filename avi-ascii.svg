@@ -1,57 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="740" height="420" viewBox="0 0 740 420" role="img" aria-label="SakshamGadade06 ASCII portrait">
-<rect width="740" height="420" rx="24" fill="#0d1117"/>
-<rect x="14" y="14" width="712" height="392" rx="18" fill="#010409" stroke="#30363d" stroke-width="2"/>
-<circle cx="34" cy="34" r="6" fill="#6e7681"/>
-<circle cx="54" cy="34" r="6" fill="#6e7681"/>
-<circle cx="74" cy="34" r="6" fill="#6e7681"/>
-<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-<text x="28" y="70" fill="#7ee787" font-size="18">$ whoami</text>
-<text x="28" y="104" fill="#c9d1d9" font-size="15">user: SakshamGadade06</text>
-<text x="28" y="128" fill="#c9d1d9" font-size="15">role: Engineering Student</text>
-<text x="28" y="152" fill="#c9d1d9" font-size="15">focus: AI/ML + Computer Vision</text>
-<text x="28" y="176" fill="#8b949e" font-size="15">build | learn | iterate</text>
-<text x="280" y="62.0" xml:space="preserve" fill="#e6edf3" font-size="8">                                        ...</text>
-<text x="280" y="69.5" xml:space="preserve" fill="#e6edf3" font-size="8">                                :=+*##%%%@@%##*+-:</text>
-<text x="280" y="77.0" xml:space="preserve" fill="#e6edf3" font-size="8">                         .:-+*#%@@@@@@@@@@@@@@@@@@%*=:.</text>
-<text x="280" y="84.5" xml:space="preserve" fill="#e6edf3" font-size="8">                      .:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#=</text>
-<text x="280" y="92.0" xml:space="preserve" fill="#e6edf3" font-size="8">                   .=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-</text>
-<text x="280" y="99.5" xml:space="preserve" fill="#e6edf3" font-size="8">                  :%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#</text>
-<text x="280" y="107.0" xml:space="preserve" fill="#e6edf3" font-size="8">                 .%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-</text>
-<text x="280" y="114.5" xml:space="preserve" fill="#e6edf3" font-size="8">                 +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-.</text>
-<text x="280" y="122.0" xml:space="preserve" fill="#e6edf3" font-size="8">                 %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=-</text>
-<text x="280" y="129.5" xml:space="preserve" fill="#e6edf3" font-size="8">                 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##:</text>
-<text x="280" y="137.0" xml:space="preserve" fill="#e6edf3" font-size="8">                -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=</text>
-<text x="280" y="144.5" xml:space="preserve" fill="#e6edf3" font-size="8">                -@@@@@@@@@@@@@@@@@@@@@@@%#**++****##%%@@@@@@@@@@@+</text>
-<text x="280" y="152.0" xml:space="preserve" fill="#e6edf3" font-size="8">                .@@@@@@%%@@@@@@@@%#*++++======++******%@@@@@@@@@%.</text>
-<text x="280" y="159.5" xml:space="preserve" fill="#e6edf3" font-size="8">                 *@@@@%%%#****#%@@%%#**++*%@@%%##%%###*%@@@@@@@@:</text>
-<text x="280" y="167.0" xml:space="preserve" fill="#e6edf3" font-size="8">                 -@@@@%###%##########**+*%%%%#******####@@@@@@@=</text>
-<text x="280" y="174.5" xml:space="preserve" fill="#e6edf3" font-size="8">                 *%%@@#*##%#*%%#+#*#*+++*+##*%%%##%#****%@@@@@*</text>
-<text x="280" y="182.0" xml:space="preserve" fill="#e6edf3" font-size="8">                .##*@%**+++********#*++++++*+###**#**++*%@@@@%-</text>
-<text x="280" y="189.5" xml:space="preserve" fill="#e6edf3" font-size="8">                .#*#@%**++++++++****++=++++++++++====++*#@@*+%+</text>
-<text x="280" y="197.0" xml:space="preserve" fill="#e6edf3" font-size="8">                 +#%%%#*++++++++**++==--=++==========+**#@%#+# +</text>
-<text x="280" y="204.5" xml:space="preserve" fill="#e6edf3" font-size="8">                 :**%@#**+++++++***#+==+*++========++***@#*%**-</text>
-<text x="280" y="212.0" xml:space="preserve" fill="#e6edf3" font-size="8">                  .:=@##***+++++*#%##***##+=======++**#%@*+*#+.</text>
-<text x="280" y="219.5" xml:space="preserve" fill="#e6edf3" font-size="8">                     %@###*##%%%@@@%#**#%%#**+++++**###@*:==-</text>
-<text x="280" y="227.0" xml:space="preserve" fill="#e6edf3" font-size="8">                     +@%%##@@@@@%%%##*##%%@@@@@#**###%@*</text>
-<text x="280" y="234.5" xml:space="preserve" fill="#e6edf3" font-size="8">                     .%@%%###**###**##**###%%%%%###%@@@-</text>
-<text x="280" y="242.0" xml:space="preserve" fill="#e6edf3" font-size="8">                      .*@%###*+++***++++++***+*##%%@@@=</text>
-<text x="280" y="249.5" xml:space="preserve" fill="#e6edf3" font-size="8">                        +@%###****######**+***##%%@@@-</text>
-<text x="280" y="257.0" xml:space="preserve" fill="#e6edf3" font-size="8">                        :@@%%#**+++++++++++*##%%%@@@=</text>
-<text x="280" y="264.5" xml:space="preserve" fill="#e6edf3" font-size="8">                   ..:-=#%#%@@%##**++++++**#%@@@@%%%=.</text>
-<text x="280" y="272.0" xml:space="preserve" fill="#e6edf3" font-size="8">               .:---=*#@%####%@@@@@@@@@%@@@@@@@%%%%%*-:...</text>
-<text x="280" y="279.5" xml:space="preserve" fill="#e6edf3" font-size="8">              .-----*#@@#####*#%%%@@@@@@@@@%%%###%%@*==*+---::.</text>
-<text x="280" y="287.0" xml:space="preserve" fill="#e6edf3" font-size="8">           .:::--::=%@@@##******####****#########%@@+==+*++-------::..</text>
-<text x="280" y="294.5" xml:space="preserve" fill="#e6edf3" font-size="8">  ...::::::::--::-:*@@@%##**********#############@@=-===+#=--::----------:::</text>
-<text x="280" y="302.0" xml:space="preserve" fill="#e6edf3" font-size="8">:::::::::::::-:::--%@%##**********************##@@--+===++---::::::::-------</text>
-<text x="280" y="309.5" xml:space="preserve" fill="#e6edf3" font-size="8">:::::::::::--:::--+%%##**********************#%@%=-#@#+===-----:::::--------</text>
-<text x="280" y="317.0" xml:space="preserve" fill="#e6edf3" font-size="8">:::::::::::-::::-=###***++++****************#%%+--+*#@%+==-----------------=</text>
-<text x="280" y="324.5" xml:space="preserve" fill="#e6edf3" font-size="8">::::::::::::::::-=+*****+++=+++++++++++++**%%*--=++++==---------------------</text>
-<text x="280" y="332.0" xml:space="preserve" fill="#e6edf3" font-size="8">::::::::::::::::-----=+***++++++++++++++**#*-:-=---::::---------------------</text>
-<text x="280" y="339.5" xml:space="preserve" fill="#e6edf3" font-size="8">-:::::::::::::--:---:.::-=++++++++++++++**-::-::::::---::::::--------------=</text>
-<text x="280" y="347.0" xml:space="preserve" fill="#e6edf3" font-size="8">----::::::---=*+::--::....::=+++++++++***-:-::::::-::::::::::------------===</text>
-<text x="280" y="354.5" xml:space="preserve" fill="#e6edf3" font-size="8">::------::::-----::--:::.....:-=+==++++*=:-::::::::::::::::::-:-::::----====</text>
-<text x="280" y="362.0" xml:space="preserve" fill="#e6edf3" font-size="8">...:::-==--::::::-:::::::::::..:=+++++*+:::::::::::::::::::::::::::----=====</text>
-<text x="280" y="369.5" xml:space="preserve" fill="#e6edf3" font-size="8">.......:-----::::::::--:::::..:..-=+++*=::::::::::::::::::::::::::--------==</text>
-<line x1="28" y1="378" x2="712" y2="378" stroke="#21262d"/>
-<text x="28" y="398" fill="#8b949e" font-size="13">SakshamGadade06@github:~$ _</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="420" viewBox="0 0 740 420" role="img" aria-label="Animated SakshamGadade06 ASCII portrait">
+  <defs>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#39ff88" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#39ff88" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#39ff88" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="typeClip"><rect x="28" y="52" width="0" height="28"><animate attributeName="width" values="0;118;118" keyTimes="0;0.55;1" dur="3.2s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="portraitClip"><rect x="270" y="48" width="440" height="330" rx="10"/></clipPath>
+  </defs>
+
+  <rect width="740" height="420" rx="24" fill="#0d1117"/>
+  <rect x="14" y="14" width="712" height="392" rx="18" fill="#010409" stroke="#30363d" stroke-width="2">
+    <animate attributeName="stroke" values="#30363d;#238636;#30363d" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <circle cx="34" cy="34" r="6" fill="#6e7681"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="54" cy="34" r="6" fill="#6e7681"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin=".35s" repeatCount="indefinite"/></circle>
+  <circle cx="74" cy="34" r="6" fill="#6e7681"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin=".7s" repeatCount="indefinite"/></circle>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <g clip-path="url(#typeClip)">
+      <text x="28" y="70" fill="#7ee787" font-size="18" filter="url(#softGlow)">$ whoami</text>
+    </g>
+
+    <text x="28" y="104" fill="#c9d1d9" font-size="15">user: SakshamGadade06</text>
+    <text x="28" y="128" fill="#c9d1d9" font-size="15">role: Engineering Student</text>
+    <text x="28" y="152" fill="#c9d1d9" font-size="15">focus: AI/ML + Computer Vision</text>
+    <circle cx="35" cy="176" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;.25;1" dur="1.25s" repeatCount="indefinite"/></circle>
+    <text x="47" y="181" fill="#8b949e" font-size="15">LIVE • build | learn | iterate</text>
+
+    <g clip-path="url(#portraitClip)" fill="#e6edf3" font-size="8">
+      <animate attributeName="opacity" values="1;.92;1;1;.96;1" dur="4.5s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -0.8;0 0;0 .6;0 0" dur="7s" repeatCount="indefinite"/>
+      <text x="280" y="62.0" xml:space="preserve">                                        ...</text>
+      <text x="280" y="69.5" xml:space="preserve">                                :=+*##%%%@@%##*+-:</text>
+      <text x="280" y="77.0" xml:space="preserve">                         .:-+*#%@@@@@@@@@@@@@@@@@@%*=:.</text>
+      <text x="280" y="84.5" xml:space="preserve">                      .:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#=</text>
+      <text x="280" y="92.0" xml:space="preserve">                   .=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-</text>
+      <text x="280" y="99.5" xml:space="preserve">                  :%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#</text>
+      <text x="280" y="107.0" xml:space="preserve">                 .%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-</text>
+      <text x="280" y="114.5" xml:space="preserve">                 +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-.</text>
+      <text x="280" y="122.0" xml:space="preserve">                 %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=-</text>
+      <text x="280" y="129.5" xml:space="preserve">                 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##:</text>
+      <text x="280" y="137.0" xml:space="preserve">                -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=</text>
+      <text x="280" y="144.5" xml:space="preserve">                -@@@@@@@@@@@@@@@@@@@@@@@%#**++****##%%@@@@@@@@@@@+</text>
+      <text x="280" y="152.0" xml:space="preserve">                .@@@@@@%%@@@@@@@@%#*++++======++******%@@@@@@@@@%.</text>
+      <text x="280" y="159.5" xml:space="preserve">                 *@@@@%%%#****#%@@%%#**++*%@@%%##%%###*%@@@@@@@@:</text>
+      <text x="280" y="167.0" xml:space="preserve">                 -@@@@%###%##########**+*%%%%#******####@@@@@@@=</text>
+      <text x="280" y="174.5" xml:space="preserve">                 *%%@@#*##%#*%%#+#*#*+++*+##*%%%##%#****%@@@@@*</text>
+      <text x="280" y="182.0" xml:space="preserve">                .##*@%**+++********#*++++++*+###**#**++*%@@@@%-</text>
+      <text x="280" y="189.5" xml:space="preserve">                .#*#@%**++++++++****++=++++++++++====++*#@@*+%+</text>
+      <text x="280" y="197.0" xml:space="preserve">                 +#%%%#*++++++++**++==--=++==========+**#@%#+# +</text>
+      <text x="280" y="204.5" xml:space="preserve">                 :**%@#**+++++++***#+==+*++========++***@#*%**-</text>
+      <text x="280" y="212.0" xml:space="preserve">                  .:=@##***+++++*#%##***##+=======++**#%@*+*#+.</text>
+      <text x="280" y="219.5" xml:space="preserve">                     %@###*##%%%@@@%#**#%%#**+++++**###@*:==-</text>
+      <text x="280" y="227.0" xml:space="preserve">                     +@%%##@@@@@%%%##*##%%@@@@@#**###%@*</text>
+      <text x="280" y="234.5" xml:space="preserve">                     .%@%%###**###**##**###%%%%%###%@@@-</text>
+      <text x="280" y="242.0" xml:space="preserve">                      .*@%###*+++***++++++***+*##%%@@@=</text>
+      <text x="280" y="249.5" xml:space="preserve">                        +@%###****######**+***##%%@@@-</text>
+      <text x="280" y="257.0" xml:space="preserve">                        :@@%%#**+++++++++++*##%%%@@@=</text>
+      <text x="280" y="264.5" xml:space="preserve">                   ..:-=#%#%@@%##**++++++**#%@@@@%%%=.</text>
+      <text x="280" y="272.0" xml:space="preserve">               .:---=*#@%####%@@@@@@@@@%@@@@@@@%%%%%*-:...</text>
+      <text x="280" y="279.5" xml:space="preserve">              .-----*#@@#####*#%%%@@@@@@@@@%%%###%%@*==*+---::.</text>
+      <text x="280" y="287.0" xml:space="preserve">           .:::--::=%@@@##******####****#########%@@+==+*++-------::..</text>
+      <text x="280" y="294.5" xml:space="preserve">  ...::::::::--::-:*@@@%##**********#############@@=-===+#=--::----------:::</text>
+      <text x="280" y="302.0" xml:space="preserve">:::::::::::::-:::--%@%##**********************##@@--+===++---::::::::-------</text>
+      <text x="280" y="309.5" xml:space="preserve">:::::::::::--:::--+%%##**********************#%@%=-#@#+===-----:::::--------</text>
+      <text x="280" y="317.0" xml:space="preserve">:::::::::::-::::-=###***++++****************#%%+--+*#@%+==-----------------=</text>
+      <text x="280" y="324.5" xml:space="preserve">::::::::::::::::-=+*****+++=+++++++++++++**%%*--=++++==---------------------</text>
+      <text x="280" y="332.0" xml:space="preserve">::::::::::::::::-----=+***++++++++++++++**#*-:-=---::::---------------------</text>
+      <text x="280" y="339.5" xml:space="preserve">-:::::::::::::--:---:.::-=++++++++++++++**-::-::::::---::::::--------------=</text>
+      <text x="280" y="347.0" xml:space="preserve">----::::::---=*+::--::....::=+++++++++***-:-::::::-::::::::::------------===</text>
+      <text x="280" y="354.5" xml:space="preserve">::------::::-----::--:::.....:-=+==++++*=:-::::::::::::::::::-:-::::----====</text>
+      <text x="280" y="362.0" xml:space="preserve">...:::-==--::::::-:::::::::::..:=+++++*+:::::::::::::::::::::::::::----=====</text>
+      <text x="280" y="369.5" xml:space="preserve">.......:-----::::::::--:::::..:..-=+++*=::::::::::::::::::::::::::--------==</text>
+    </g>
+
+    <g clip-path="url(#portraitClip)" pointer-events="none">
+      <rect x="270" y="45" width="440" height="26" fill="url(#scanGrad)">
+        <animate attributeName="y" from="48" to="352" dur="2.8s" repeatCount="indefinite"/>
+      </rect>
+      <line x1="280" x2="706" y1="58" y2="58" stroke="#39ff88" stroke-opacity=".22">
+        <animate attributeName="y1" from="58" to="362" dur="2.8s" repeatCount="indefinite"/>
+        <animate attributeName="y2" from="58" to="362" dur="2.8s" repeatCount="indefinite"/>
+      </line>
+    </g>
+
+    <line x1="28" y1="378" x2="712" y2="378" stroke="#21262d"/>
+    <text x="28" y="398" fill="#8b949e" font-size="13">SakshamGadade06@github:~$</text>
+    <rect x="218" y="386" width="9" height="14" rx="1" fill="#7ee787">
+      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
