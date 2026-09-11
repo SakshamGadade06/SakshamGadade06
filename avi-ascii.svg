@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="420" viewBox="0 0 740 420">
+  <rect width="740" height="420" rx="28" fill="#0d1117"/>
+  <rect x="18" y="18" width="704" height="384" rx="20" fill="#010409" stroke="#30363d"/>
+  <g font-family="monospace" fill="#7ee787" font-size="28">
+    <text x="48" y="70">$ identity --scan</text>
+    <text x="48" y="122">user: SakshamGadade06</text>
+    <text x="48" y="164">role: engineering_student</text>
+    <text x="48" y="206">focus: AI/ML + vision</text>
+    <text x="48" y="248">mode: build → test → iterate</text>
+    <text x="48" y="306">[██████████████████] 100%</text>
+    <text x="48" y="356">status: learning in public_</text>
+  </g>
+</svg>
