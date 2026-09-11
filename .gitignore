@@ -1,0 +1,17 @@
+# Local profile-art configuration and setup files
+PROMPT.md
+profile-README-template.md
+README.txt
+requirements-local.txt
+
+# Local preview and scratch artifacts
+preview_*.html
+scratch_*
+avi-ascii-static.svg
+info-card.svg
+source-prepped.png
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.env
