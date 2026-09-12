@@ -1,99 +1,239 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="740" height="420" viewBox="0 0 740 420" role="img" aria-label="Animated SakshamGadade06 ASCII portrait">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="500" viewBox="0 0 760 500" role="img" aria-label="SakshamGadade06 animated ASCII portrait">
   <defs>
     <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#39ff88" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#39ff88" stop-opacity="0.18"/>
-      <stop offset="1" stop-color="#39ff88" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#7ee787" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7ee787" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#7ee787" stop-opacity="0"/>
     </linearGradient>
-    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.2" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
-    <clipPath id="typeClip"><rect x="28" y="52" width="0" height="28"><animate attributeName="width" values="0;118;118" keyTimes="0;0.55;1" dur="3.2s" repeatCount="indefinite"/></rect></clipPath>
-    <clipPath id="portraitClip"><rect x="270" y="48" width="440" height="330" rx="10"/></clipPath>
+
+    <clipPath id="whoClip">
+      <rect x="28" y="57" width="0" height="22">
+        <animate attributeName="width" begin="0.15s" dur="0.55s" values="0;86" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="nameClip">
+      <rect x="80" y="91" width="0" height="19">
+        <animate attributeName="width" begin="0.85s" dur="1.5s" values="0;130;175" keyTimes="0;0.72;1" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="roleClip">
+      <rect x="80" y="115" width="0" height="19">
+        <animate attributeName="width" begin="2.45s" dur="0.9s" values="0;145" fill="freeze"/>
+      </rect>
+    </clipPath>
+
+    <clipPath id="focusClip">
+      <rect x="90" y="139" width="0" height="19">
+        <animate attributeName="width" begin="3.10s" dur="1.2s" values="0;200" fill="freeze"/>
+      </rect>
+    </clipPath>
   </defs>
 
-  <rect width="740" height="420" rx="24" fill="#0d1117"/>
-  <rect x="14" y="14" width="712" height="392" rx="18" fill="#010409" stroke="#30363d" stroke-width="2">
-    <animate attributeName="stroke" values="#30363d;#238636;#30363d" dur="5s" repeatCount="indefinite"/>
+  <rect width="760" height="500" rx="26" fill="#0d1117"/>
+
+  <rect x="14" y="14" width="732" height="472" rx="18"
+        fill="#010409" stroke="#30363d" stroke-width="2">
+    <animate
+      attributeName="stroke"
+      values="#30363d;#58a6ff;#7ee787;#30363d"
+      keyTimes="0;0.25;0.62;1"
+      dur="3.6s"
+      begin="0s"
+      fill="freeze"/>
   </rect>
 
-  <circle cx="34" cy="34" r="6" fill="#6e7681"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" repeatCount="indefinite"/></circle>
-  <circle cx="54" cy="34" r="6" fill="#6e7681"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin=".35s" repeatCount="indefinite"/></circle>
-  <circle cx="74" cy="34" r="6" fill="#6e7681"><animate attributeName="opacity" values=".45;1;.45" dur="2.4s" begin=".7s" repeatCount="indefinite"/></circle>
+  <circle cx="36" cy="36" r="6" fill="#ff7b72">
+    <animate attributeName="opacity" values="0.25;1;0.45" dur="2.4s" begin="0s" fill="freeze"/>
+  </circle>
+
+  <circle cx="56" cy="36" r="6" fill="#f2cc60">
+    <animate attributeName="opacity" values="0.25;1;0.45" dur="2.4s" begin="0.1s" fill="freeze"/>
+  </circle>
+
+  <circle cx="76" cy="36" r="6" fill="#3fb950">
+    <animate attributeName="opacity" values="0.25;1;0.45" dur="2.4s" begin="0.2s" fill="freeze"/>
+  </circle>
 
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
-    <g clip-path="url(#typeClip)">
-      <text x="28" y="70" fill="#7ee787" font-size="18" filter="url(#softGlow)">$ whoami</text>
-    </g>
 
-    <text x="28" y="104" fill="#c9d1d9" font-size="15">user: SakshamGadade06</text>
-    <text x="28" y="128" fill="#c9d1d9" font-size="15">role: Engineering Student</text>
-    <text x="28" y="152" fill="#c9d1d9" font-size="15">focus: AI/ML + Computer Vision</text>
-    <circle cx="35" cy="176" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;.25;1" dur="1.25s" repeatCount="indefinite"/></circle>
-    <text x="47" y="181" fill="#8b949e" font-size="15">LIVE • build | learn | iterate</text>
+    <text x="28" y="70" fill="#7ee787" font-size="18"
+          clip-path="url(#whoClip)">
+      $ whoami
+    </text>
 
-    <g clip-path="url(#portraitClip)" fill="#e6edf3" font-size="8">
-      <animate attributeName="opacity" values="1;.92;1;1;.96;1" dur="4.5s" repeatCount="indefinite"/>
-      <animateTransform attributeName="transform" type="translate" values="0 0;0 -0.8;0 0;0 .6;0 0" dur="7s" repeatCount="indefinite"/>
-      <text x="280" y="62.0" xml:space="preserve">                                        ...</text>
-      <text x="280" y="69.5" xml:space="preserve">                                :=+*##%%%@@%##*+-:</text>
-      <text x="280" y="77.0" xml:space="preserve">                         .:-+*#%@@@@@@@@@@@@@@@@@@%*=:.</text>
-      <text x="280" y="84.5" xml:space="preserve">                      .:*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%#=</text>
-      <text x="280" y="92.0" xml:space="preserve">                   .=#%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%-</text>
-      <text x="280" y="99.5" xml:space="preserve">                  :%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#</text>
-      <text x="280" y="107.0" xml:space="preserve">                 .%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@+-</text>
-      <text x="280" y="114.5" xml:space="preserve">                 +@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#-.</text>
-      <text x="280" y="122.0" xml:space="preserve">                 %@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#=-</text>
-      <text x="280" y="129.5" xml:space="preserve">                 #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@##:</text>
-      <text x="280" y="137.0" xml:space="preserve">                -@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@=</text>
-      <text x="280" y="144.5" xml:space="preserve">                -@@@@@@@@@@@@@@@@@@@@@@@%#**++****##%%@@@@@@@@@@@+</text>
-      <text x="280" y="152.0" xml:space="preserve">                .@@@@@@%%@@@@@@@@%#*++++======++******%@@@@@@@@@%.</text>
-      <text x="280" y="159.5" xml:space="preserve">                 *@@@@%%%#****#%@@%%#**++*%@@%%##%%###*%@@@@@@@@:</text>
-      <text x="280" y="167.0" xml:space="preserve">                 -@@@@%###%##########**+*%%%%#******####@@@@@@@=</text>
-      <text x="280" y="174.5" xml:space="preserve">                 *%%@@#*##%#*%%#+#*#*+++*+##*%%%##%#****%@@@@@*</text>
-      <text x="280" y="182.0" xml:space="preserve">                .##*@%**+++********#*++++++*+###**#**++*%@@@@%-</text>
-      <text x="280" y="189.5" xml:space="preserve">                .#*#@%**++++++++****++=++++++++++====++*#@@*+%+</text>
-      <text x="280" y="197.0" xml:space="preserve">                 +#%%%#*++++++++**++==--=++==========+**#@%#+# +</text>
-      <text x="280" y="204.5" xml:space="preserve">                 :**%@#**+++++++***#+==+*++========++***@#*%**-</text>
-      <text x="280" y="212.0" xml:space="preserve">                  .:=@##***+++++*#%##***##+=======++**#%@*+*#+.</text>
-      <text x="280" y="219.5" xml:space="preserve">                     %@###*##%%%@@@%#**#%%#**+++++**###@*:==-</text>
-      <text x="280" y="227.0" xml:space="preserve">                     +@%%##@@@@@%%%##*##%%@@@@@#**###%@*</text>
-      <text x="280" y="234.5" xml:space="preserve">                     .%@%%###**###**##**###%%%%%###%@@@-</text>
-      <text x="280" y="242.0" xml:space="preserve">                      .*@%###*+++***++++++***+*##%%@@@=</text>
-      <text x="280" y="249.5" xml:space="preserve">                        +@%###****######**+***##%%@@@-</text>
-      <text x="280" y="257.0" xml:space="preserve">                        :@@%%#**+++++++++++*##%%%@@@=</text>
-      <text x="280" y="264.5" xml:space="preserve">                   ..:-=#%#%@@%##**++++++**#%@@@@%%%=.</text>
-      <text x="280" y="272.0" xml:space="preserve">               .:---=*#@%####%@@@@@@@@@%@@@@@@@%%%%%*-:...</text>
-      <text x="280" y="279.5" xml:space="preserve">              .-----*#@@#####*#%%%@@@@@@@@@%%%###%%@*==*+---::.</text>
-      <text x="280" y="287.0" xml:space="preserve">           .:::--::=%@@@##******####****#########%@@+==+*++-------::..</text>
-      <text x="280" y="294.5" xml:space="preserve">  ...::::::::--::-:*@@@%##**********#############@@=-===+#=--::----------:::</text>
-      <text x="280" y="302.0" xml:space="preserve">:::::::::::::-:::--%@%##**********************##@@--+===++---::::::::-------</text>
-      <text x="280" y="309.5" xml:space="preserve">:::::::::::--:::--+%%##**********************#%@%=-#@#+===-----:::::--------</text>
-      <text x="280" y="317.0" xml:space="preserve">:::::::::::-::::-=###***++++****************#%%+--+*#@%+==-----------------=</text>
-      <text x="280" y="324.5" xml:space="preserve">::::::::::::::::-=+*****+++=+++++++++++++**%%*--=++++==---------------------</text>
-      <text x="280" y="332.0" xml:space="preserve">::::::::::::::::-----=+***++++++++++++++**#*-:-=---::::---------------------</text>
-      <text x="280" y="339.5" xml:space="preserve">-:::::::::::::--:---:.::-=++++++++++++++**-::-::::::---::::::--------------=</text>
-      <text x="280" y="347.0" xml:space="preserve">----::::::---=*+::--::....::=+++++++++***-:-::::::-::::::::::------------===</text>
-      <text x="280" y="354.5" xml:space="preserve">::------::::-----::--:::.....:-=+==++++*=:-::::::::::::::::::-:-::::----====</text>
-      <text x="280" y="362.0" xml:space="preserve">...:::-==--::::::-:::::::::::..:=+++++*+:::::::::::::::::::::::::::----=====</text>
-      <text x="280" y="369.5" xml:space="preserve">.......:-----::::::::--:::::..:..-=+++*=::::::::::::::::::::::::::--------==</text>
-    </g>
+    <text x="28" y="104" fill="#8b949e" font-size="15">user:</text>
 
-    <g clip-path="url(#portraitClip)" pointer-events="none">
-      <rect x="270" y="45" width="440" height="26" fill="url(#scanGrad)">
-        <animate attributeName="y" from="48" to="352" dur="2.8s" repeatCount="indefinite"/>
-      </rect>
-      <line x1="280" x2="706" y1="58" y2="58" stroke="#39ff88" stroke-opacity=".22">
-        <animate attributeName="y1" from="58" to="362" dur="2.8s" repeatCount="indefinite"/>
-        <animate attributeName="y2" from="58" to="362" dur="2.8s" repeatCount="indefinite"/>
-      </line>
-    </g>
+    <text x="80" y="104" fill="#c9d1d9" font-size="15"
+          clip-path="url(#nameClip)">
+      SakshamGadade06
+    </text>
 
-    <line x1="28" y1="378" x2="712" y2="378" stroke="#21262d"/>
-    <text x="28" y="398" fill="#8b949e" font-size="13">SakshamGadade06@github:~$</text>
-    <rect x="218" y="386" width="9" height="14" rx="1" fill="#7ee787">
-      <animate attributeName="opacity" values="1;1;0;0;1" dur="1s" repeatCount="indefinite"/>
+    <rect x="80" y="91" width="9" height="16"
+          fill="#7ee787" opacity="0">
+      <animate
+        attributeName="x"
+        begin="0.85s"
+        dur="1.5s"
+        values="80;120;170;174"
+        keyTimes="0;0.45;0.9;1"
+        fill="freeze"/>
+      <animate
+        attributeName="opacity"
+        begin="0.85s"
+        dur="1.7s"
+        values="1;0;1;0;1;0"
+        keyTimes="0;0.2;0.4;0.6;0.8;1"
+        fill="freeze"/>
     </rect>
+
+    <text x="28" y="128" fill="#8b949e" font-size="15">role:</text>
+
+    <text x="80" y="128" fill="#c9d1d9" font-size="15"
+          clip-path="url(#roleClip)">
+      Engineering Student
+    </text>
+
+    <text x="28" y="152" fill="#8b949e" font-size="15">focus:</text>
+
+    <text x="90" y="152" fill="#c9d1d9" font-size="15"
+          clip-path="url(#focusClip)">
+      AI/ML + Computer Vision
+    </text>
+
+    <text x="28" y="176" fill="#8b949e" font-size="15" opacity="0">
+      build | learn | iterate
+      <animate
+        attributeName="opacity"
+        begin="4.2s"
+        dur="0.2s"
+        from="0"
+        to="1"
+        fill="freeze"/>
+    </text>
+
+    <g id="portrait" filter="url(#glow)">
+
+      <rect x="270" y="60" width="450" height="340"
+            fill="none" stroke="#161b22" stroke-width="1" opacity="0">
+        <animate
+          attributeName="opacity"
+          begin="0.45s"
+          dur="0.15s"
+          from="0"
+          to="1"
+          fill="freeze"/>
+      </rect>
+
+      <rect x="270" y="60" width="450" height="16"
+            fill="url(#scanGrad)" opacity="0.9">
+        <animate
+          attributeName="y"
+          begin="0.55s"
+          dur="2.8s"
+          values="60;360"
+          fill="freeze"/>
+
+        <animate
+          attributeName="opacity"
+          begin="0.55s"
+          dur="2.8s"
+          values="0.2;0.9;0.15"
+          fill="freeze"/>
+      </rect>
+
+      <text x="284" y="78" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">                    :s23hh3Ar,<animate attributeName="opacity" begin="0.55s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="89" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">                :2MS9BBBBBBBB#M2;<animate attributeName="opacity" begin="0.61s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="100" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">              XGB&amp;&amp;&amp;BBBBBBB9BBB&amp;&amp;A<animate attributeName="opacity" begin="0.66s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="111" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">             X&amp;&amp;B&amp;BBBBBBBBBBBBBB&amp;9s<animate attributeName="opacity" begin="0.72s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="122" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">             G&amp;BBBBBBBBBBBBB&amp;BB&amp;&amp;&amp;&amp;Hi.<animate attributeName="opacity" begin="0.77s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="133" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">            .#&amp;BBBBBBBBBB&amp;&amp;BB&amp;&amp;&amp;&amp;&amp;&amp;BS;<animate attributeName="opacity" begin="0.83s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="144" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">            ,B&amp;B999BB9#SHh55hMH#&amp;&amp;&amp;B#,<animate attributeName="opacity" begin="0.88s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="155" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">             G@9HHMHSHh223MhhMhhB&amp;B&amp;2<animate attributeName="opacity" begin="0.94s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="166" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">             3BShHMHhMh25MHHhhh3G&amp;@G.<animate attributeName="opacity" begin="0.99s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="177" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">            .hGH5555533A225h3352HB#2<animate attributeName="opacity" begin="1.04s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="188" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">             5SH5AAA53AsX2XXssX2MG3A<animate attributeName="opacity" begin="1.10s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="199" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">             :2Gh5225Mh235XssX5hG3hi<animate attributeName="opacity" begin="1.16s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="210" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">               HHhHSSSM3HGMh55hG2;:<animate attributeName="opacity" begin="1.21s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="221" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">               X#HMhMh333MGGHHSG.<animate attributeName="opacity" begin="1.27s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="232" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">                XSM353335253H##;<animate attributeName="opacity" begin="1.32s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="243" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">               .rGGH322225MSS#5<animate attributeName="opacity" begin="1.38s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="254" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">            :irhGMMG#SSSS#9SHGhi:,.<animate attributeName="opacity" begin="1.43s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="265" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">          ,:ii39Gh33MMHHHHMMMS3X5Aii;:,.<animate attributeName="opacity" begin="1.49s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="276" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">    .,,:::;i;rGSM33553333h3hGhXX2Xiiiiriiir;<animate attributeName="opacity" begin="1.54s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="287" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">.,:::::::;i;;AHh5555555333hHhXMhXriiiiiirrssi:<animate attributeName="opacity" begin="1.59s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="298" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">;;;:::::::;;iX5352A5522253M2sXAAsriiirrrsrssXs<animate attributeName="opacity" begin="1.65s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="309" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">::iii;::::;iir;iXA22222252iii;;;;;iirrrrrsXXAA<animate attributeName="opacity" begin="1.71s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="320" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">::::;iii;;isrii,,,;sAA252i;:;;;;;;;iiiiirXXA5A<animate attributeName="opacity" begin="1.76s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="331" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">::;:,::irri;;;;;::,:iA25s:::::::;;;;;;irssX255<animate attributeName="opacity" begin="1.81s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="342" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">::;i;,,,:;ii;;:::;;;:iX3i:::::::;;;;irrrsA3HG9<animate attributeName="opacity" begin="1.87s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+      <text x="284" y="353" xml:space="preserve" fill="#e6edf3" font-size="10.5" opacity="0">:::;i;,,,,,::;;;::::::;r;:::::;;:;;iirrX3GS#99<animate attributeName="opacity" begin="1.93s" dur="0.01s" from="0" to="1" fill="freeze"/></text>
+
+    </g>
+
+    <g transform="translate(640,64)" opacity="0">
+      <animate attributeName="opacity" begin="4.05s" dur="0.2s" from="0" to="1" fill="freeze"/>
+
+      <rect x="0" y="-16" rx="10" width="64" height="22"
+            fill="#12261e" stroke="#238636" stroke-width="1"/>
+
+      <circle cx="14" cy="-5" r="4" fill="#3fb950">
+        <animate attributeName="r" values="4;5;4" dur="0.9s" begin="4.3s" repeatCount="2"/>
+      </circle>
+
+      <text x="24" y="-1" fill="#7ee787" font-size="12">LIVE</text>
+    </g>
+
+    <line x1="28" y1="408" x2="716" y2="408" stroke="#21262d"/>
+
+    <text x="28" y="434" fill="#8b949e" font-size="13">
+      SakshamGadade06@github:~$
+    </text>
+
+    <text x="214" y="434" fill="#7ee787" font-size="13" opacity="1">
+      _
+      <animate
+        attributeName="opacity"
+        begin="0s"
+        dur="4.4s"
+        values="1;0;1;0;1;0;1;0;1"
+        keyTimes="0;0.1;0.2;0.32;0.44;0.58;0.72;0.86;1"
+        fill="freeze"/>
+    </text>
+
   </g>
 </svg>
